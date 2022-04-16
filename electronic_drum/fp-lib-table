@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "electronic drum")(type "KiCad")(uri "C:/Users/len97/OneDrive/文件/KiCad/6.0/projects/electronic drum")(options "")(descr ""))
+  (lib (name "audio_PJ317")(type "KiCad")(uri "${KIPRJMOD}/audio_PJ317.pretty")(options "")(descr ""))
+)
