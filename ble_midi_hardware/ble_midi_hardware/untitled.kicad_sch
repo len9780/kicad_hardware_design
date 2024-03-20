@@ -1,0 +1,1258 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0a41d7af-e441-4f9d-bcf3-5f363e8cbc8f")
+	(paper "A4")
+	(title_block
+		(title "Ble Midi")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM1117MP-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1117MP-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117MP-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1117MP-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:LM1117MP-5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1117MP-5.0"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 5.0V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117MP-5.0_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1117MP-5.0_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 58.9788 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f05b72f-7f23-4422-8bc1-d59161069e70")
+	)
+	(junction
+		(at 81.8134 95.9612)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c092be-c9ab-40c3-90fe-20d050e41200")
+	)
+	(junction
+		(at 81.7372 84.582)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780a2c0b-79d5-44e0-8a6c-b5f41081217c")
+	)
+	(junction
+		(at 86.1822 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8330e95d-5792-4413-a66d-6448fa33f91d")
+	)
+	(junction
+		(at 69.2658 96.647)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8adb3b-bb73-4b41-84b4-e44170cd766b")
+	)
+	(junction
+		(at 69.2658 95.9612)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74a9d7d-09da-432b-a2a2-42a4f2bc93f2")
+	)
+	(junction
+		(at 86.1822 69.2658)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcb9bb58-b736-49d3-8016-b35ad9deef2e")
+	)
+	(junction
+		(at 45.6946 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efded0b9-58bc-43ec-b826-6f2ad7af51ce")
+	)
+	(wire
+		(pts
+			(xy 58.9788 69.215) (xy 58.9788 84.5566)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009a124b-1a31-46b3-8534-b1cb7fff7af6")
+	)
+	(wire
+		(pts
+			(xy 97.8916 76.835) (xy 97.8916 95.9612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03571578-3351-4da1-8ad6-7afd66ec1082")
+	)
+	(wire
+		(pts
+			(xy 40.7416 69.215) (xy 45.6946 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae42a5d-5caa-4dbc-9c95-7f70051149e6")
+	)
+	(wire
+		(pts
+			(xy 81.8134 88.8238) (xy 81.8134 88.7984)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c271cec-a0a8-4fed-b4f8-50cd2ae6bbd1")
+	)
+	(wire
+		(pts
+			(xy 81.8134 88.7984) (xy 81.8388 88.7984)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12833a31-62de-4470-9329-ea8be68097b5")
+	)
+	(wire
+		(pts
+			(xy 81.8134 95.9612) (xy 97.8916 95.9612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171a3fb2-7e95-461e-9be4-649eea36ffc0")
+	)
+	(wire
+		(pts
+			(xy 86.1822 74.3458) (xy 86.1822 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4ed0c4-2af4-401f-a2d3-0fdf03c4f63c")
+	)
+	(wire
+		(pts
+			(xy 69.5198 97.663) (xy 69.5198 97.5868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8b161b-e201-4ef0-944e-1979ce1ff25b")
+	)
+	(wire
+		(pts
+			(xy 86.1822 69.2658) (xy 87.1982 69.2658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d171ab-b240-4bd9-9ed0-51a63a8baa3c")
+	)
+	(wire
+		(pts
+			(xy 81.7372 84.582) (xy 81.7372 86.6648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb4ea33-8765-4af1-a795-ef69d04e9fd9")
+	)
+	(wire
+		(pts
+			(xy 45.974 96.647) (xy 69.2658 96.647)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cef9db-2819-48f7-9e75-764bca032696")
+	)
+	(wire
+		(pts
+			(xy 81.8134 93.9038) (xy 81.8134 95.9612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fef61c-ce50-42a0-805d-e821fa23a5a8")
+	)
+	(wire
+		(pts
+			(xy 87.9094 84.5058) (xy 87.884 84.5058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557ac94c-8a47-4eab-9010-9ab18026407a")
+	)
+	(wire
+		(pts
+			(xy 61.6458 84.582) (xy 61.6458 84.5566)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557ae8e9-207a-4357-a0bb-1c33a617d604")
+	)
+	(wire
+		(pts
+			(xy 69.2658 96.647) (xy 69.2658 95.9612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582e7594-6009-48d2-b0bc-673947b1fb64")
+	)
+	(wire
+		(pts
+			(xy 61.6458 84.5566) (xy 58.9788 84.5566)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e2256e-b3c8-4adf-8271-d2f4a1d595bc")
+	)
+	(wire
+		(pts
+			(xy 69.2658 96.647) (xy 69.2658 97.5868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5933ac30-4605-4aa5-92ae-aa320c756d16")
+	)
+	(wire
+		(pts
+			(xy 87.884 84.582) (xy 81.7372 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eed90e2-0bf2-4fa6-b44e-9a5b7896cb21")
+	)
+	(wire
+		(pts
+			(xy 69.2658 95.9612) (xy 81.8134 95.9612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adaf6bd-f1dc-42b2-a139-0e326d0b2a3f")
+	)
+	(wire
+		(pts
+			(xy 61.6458 84.582) (xy 61.6712 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7509ab11-2f6d-48f6-bfaa-9807f3a0707f")
+	)
+	(wire
+		(pts
+			(xy 81.7372 86.6648) (xy 81.8388 86.6648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd1e88b-039a-4d94-917b-c2dccf7f46bb")
+	)
+	(wire
+		(pts
+			(xy 45.6946 69.215) (xy 58.9788 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f46fcdf-126b-41cb-9ef4-4110be3144bd")
+	)
+	(wire
+		(pts
+			(xy 45.6946 75.4634) (xy 45.974 75.4634)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850290b4-e5de-4255-b882-3fda6b125af1")
+	)
+	(wire
+		(pts
+			(xy 77.089 69.2404) (xy 77.089 69.2912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c3da6b-4250-408d-9cc9-593e10094b5f")
+	)
+	(wire
+		(pts
+			(xy 69.2658 92.202) (xy 69.2912 92.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90985ce7-5905-4be5-b519-4eda4e694824")
+	)
+	(wire
+		(pts
+			(xy 77.089 69.2912) (xy 77.0382 69.2912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9412e823-e204-433c-b7e0-cf2b5f202b9c")
+	)
+	(wire
+		(pts
+			(xy 45.6946 70.3834) (xy 45.6946 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983ac3d8-5a2e-4437-8f47-26b7fd01a551")
+	)
+	(wire
+		(pts
+			(xy 69.5198 97.5868) (xy 69.2658 97.5868)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a390d134-e9d2-4399-90fa-f5a6c5fa0edf")
+	)
+	(wire
+		(pts
+			(xy 81.7372 84.582) (xy 76.9112 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22f0042-e605-4e68-81e7-e2fdd3fc93c1")
+	)
+	(wire
+		(pts
+			(xy 81.8388 88.7984) (xy 81.8388 86.6648)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2afa0c5-5a5d-4274-8ab4-1d6d32afa0b5")
+	)
+	(wire
+		(pts
+			(xy 86.1822 69.2658) (xy 77.089 69.2404)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39df271-0854-48eb-b06b-a2c61938a98d")
+	)
+	(wire
+		(pts
+			(xy 58.9788 69.215) (xy 61.7982 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47d3e2e-b6a3-45a2-a5c8-e8a14a83404c")
+	)
+	(wire
+		(pts
+			(xy 45.974 75.4634) (xy 45.974 96.647)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81ad511-a2f2-4001-80e1-8b5e0fa0fa95")
+	)
+	(wire
+		(pts
+			(xy 69.2658 95.9612) (xy 69.2658 92.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32e34c5-833a-436c-95f1-6a6957945a2b")
+	)
+	(wire
+		(pts
+			(xy 86.1822 76.835) (xy 97.8916 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc28a825-e1e8-4725-9a0d-0b36b9b36f8d")
+	)
+	(wire
+		(pts
+			(xy 77.0382 69.2912) (xy 77.0382 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43d950c-dc5c-40e9-b40d-3cfd6270ff8c")
+	)
+	(wire
+		(pts
+			(xy 69.4182 76.835) (xy 86.1822 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98a7899-7c0f-4328-b458-75e151db5547")
+	)
+	(wire
+		(pts
+			(xy 87.884 84.5058) (xy 87.884 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead22fb7-67f1-446d-80a3-70fdf2168b9e")
+	)
+	(text "建議:\nLT1963AxST-3.3(1.5A)\n"
+		(exclude_from_sim no)
+		(at 19.1262 29.2862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "becd6ae6-cc9b-47bc-b25b-2cee6a769012")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 69.5198 97.663 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c397030-66f6-48de-acb2-c9e1c1b92427")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 87.1982 69.2658 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5253af1-21b2-445d-a32e-be64d35ba1c7")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 40.7416 69.215 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e47c7145-0781-460f-ae24-b4c64156def9")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 87.9094 84.5058 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5850f92-0a61-4e1b-b147-22f9f5dd2257")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.8134 91.3638 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de8ef35-5ca5-48e8-9e3e-aaac14ffc9d1")
+		(property "Reference" "C2"
+			(at 84.3788 90.7351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 84.3788 93.2751 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 81.8134 91.3638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.8134 91.3638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.8134 91.3638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1c771cb-8a32-42b0-afae-3369b74fc78d")
+		)
+		(pin "2"
+			(uuid "e14635f2-94b5-4a6b-a180-c7b7b2b134a6")
+		)
+		(instances
+			(project "ble_midi_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1/4950ead4-ea05-4a78-b292-d3e703513e1c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 86.1822 71.8058 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62cba1a3-f854-4291-be58-e8a3b7240a06")
+		(property "Reference" "C3"
+			(at 88.7476 71.1771 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 88.7476 73.7171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 86.1822 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.1822 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.1822 71.8058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "788ab2ec-083d-4659-b1d1-cf6511eeb410")
+		)
+		(pin "2"
+			(uuid "d6ec3272-d87c-4c51-8f66-c4e9bf9fa9b1")
+		)
+		(instances
+			(project "ble_midi_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1/4950ead4-ea05-4a78-b292-d3e703513e1c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117MP-5.0")
+		(at 69.4182 69.215 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91709a48-f6c4-4106-a0d8-c100c10386ad")
+		(property "Reference" "U4"
+			(at 69.4182 63.0174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117MP-5.0"
+			(at 69.4182 65.5574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 69.4182 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 69.4182 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.4182 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c98157a-2bed-42ef-8157-54993e49a394")
+		)
+		(pin "2"
+			(uuid "cb1164d4-6eae-48ac-b5a5-2915aa069b75")
+		)
+		(pin "3"
+			(uuid "60606ea7-f474-44d6-9b33-605a373b7c86")
+		)
+		(instances
+			(project "ble_midi_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1/4950ead4-ea05-4a78-b292-d3e703513e1c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.6946 72.9234 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93656d48-e57d-4660-b9a4-dca61d3029c1")
+		(property "Reference" "C1"
+			(at 48.26 72.2947 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 48.26 74.8347 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 45.6946 72.9234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.6946 72.9234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.6946 72.9234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af81d6cb-d16a-4ee7-8a1c-1b6a19fd94c0")
+		)
+		(pin "2"
+			(uuid "91660385-f043-4f9e-b4aa-163d00eb80c0")
+		)
+		(instances
+			(project "ble_midi_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1/4950ead4-ea05-4a78-b292-d3e703513e1c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117MP-3.3")
+		(at 69.2912 84.582 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff088f39-924a-45fc-85c5-dbe038346298")
+		(property "Reference" "U3"
+			(at 69.2912 79.1464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117MP-3.3"
+			(at 69.2912 81.6864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 69.2912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 69.2912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.2912 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49adf96a-e434-47ce-b713-55fa59987e4e")
+		)
+		(pin "2"
+			(uuid "43026955-fdfb-4087-85fa-cafa0fe8bfe4")
+		)
+		(pin "3"
+			(uuid "d6da8efd-d32c-4a78-b254-ec50f5c4a194")
+		)
+		(instances
+			(project "ble_midi_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1/4950ead4-ea05-4a78-b292-d3e703513e1c"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
