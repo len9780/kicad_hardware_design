@@ -2424,16 +2424,22 @@
 		)
 	)
 	(junction
-		(at 54.61 45.72)
+		(at 63.5 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88cdc104-c62b-4123-8f9e-21bb2cf28dba")
+		(uuid "0a543bc8-d6af-4232-81ec-f2715a2480f6")
 	)
 	(junction
-		(at 54.61 60.96)
+		(at 58.42 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aebaabd9-2e06-4b5c-8cf3-69885ba4d5f3")
+		(uuid "0b926509-5cc7-4144-b172-b3d757ae9e3b")
+	)
+	(junction
+		(at 31.75 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae004650-f87a-4b83-abcc-b572d1c72feb")
 	)
 	(junction
 		(at 147.32 76.2)
@@ -2463,13 +2469,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 54.61 60.96)
+			(xy 48.26 62.23) (xy 48.26 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "169c82a6-9e97-4da5-8c02-92060468eb7e")
+		(uuid "0e0351da-46af-4dbf-b8e1-086598c3fd99")
 	)
 	(wire
 		(pts
@@ -2493,7 +2499,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 60.96) (xy 63.5 60.96)
+			(xy 58.42 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275bd313-5f00-46bd-8e93-42d27553cb13")
+	)
+	(wire
+		(pts
+			(xy 54.61 60.96) (xy 58.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2553,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 64.77) (xy 58.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497a53f7-6039-46dc-879f-507c2ab26ff9")
+	)
+	(wire
+		(pts
 			(xy 76.2 69.85) (xy 73.66 69.85)
 		)
 		(stroke
@@ -2563,6 +2589,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 41.91) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8329a7-ab65-4e38-82fc-44088bc3dfa0")
+	)
+	(wire
+		(pts
+			(xy 63.5 40.64) (xy 63.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dccfc66-8ba3-482f-9c66-b8de17486178")
+	)
+	(wire
+		(pts
 			(xy 76.2 45.72) (xy 76.2 44.45)
 		)
 		(stroke
@@ -2570,6 +2616,26 @@
 			(type default)
 		)
 		(uuid "7417c434-0dc3-4843-99fc-d6d65ed770b3")
+	)
+	(wire
+		(pts
+			(xy 44.45 62.23) (xy 48.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f38b00-25a7-4ebc-851e-2452029dbf90")
+	)
+	(wire
+		(pts
+			(xy 55.88 77.47) (xy 55.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88394841-4bae-4f56-a427-a9fbc4e9d1ef")
 	)
 	(wire
 		(pts
@@ -2593,16 +2659,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 49.53 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19acb9a-2dd9-4fb9-8a69-50be0d90630e")
-	)
-	(wire
-		(pts
 			(xy 73.66 69.85) (xy 73.66 68.58)
 		)
 		(stroke
@@ -2613,43 +2669,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 45.72) (xy 63.5 45.72)
+			(xy 31.75 74.93) (xy 31.75 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7dd45b3-95c7-4b90-8d7f-c14f970e68ce")
-	)
-	(wire
-		(pts
-			(xy 49.53 45.72) (xy 54.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd5cbf1e-1b49-4cce-9b67-33fb1647c5a1")
-	)
-	(wire
-		(pts
-			(xy 49.53 54.61) (xy 49.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14ceb9e-6ded-4543-bd0b-b822f1518b5e")
-	)
-	(wire
-		(pts
-			(xy 54.61 48.26) (xy 54.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d29766f2-2a57-432d-9c09-c4fe4e486692")
+		(uuid "cef8b807-f9e8-4cef-a49e-b930e35bd119")
 	)
 	(wire
 		(pts
@@ -2663,13 +2689,43 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 41.91) (xy 54.61 45.72)
+			(xy 55.88 64.77) (xy 58.42 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e42c25b8-2205-465f-8c7e-0ab9dbb6e443")
+		(uuid "df3df9a5-ec2d-469d-a1b6-8703b1006ec1")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 54.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5df5b57-16c1-4098-a264-1c981e3e38aa")
+	)
+	(wire
+		(pts
+			(xy 63.5 41.91) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ca12cb-6aef-4db5-b6c0-25f4cd5b5e64")
+	)
+	(wire
+		(pts
+			(xy 31.75 62.23) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d1410f-70bc-4c84-b8b1-fb429b71fe37")
 	)
 	(wire
 		(pts
@@ -2749,6 +2805,17 @@
 		(uuid "1c0733d7-3262-4081-a9a1-1e50e3215b5f")
 	)
 	(label "GND"
+		(at 55.88 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f9ecd45-646d-449b-a2f6-9c825d92d2f5")
+	)
+	(label "GND"
 		(at 195.58 153.67 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2771,7 +2838,7 @@
 		(uuid "374329aa-3cac-45ff-b978-b42bfd6d68a4")
 	)
 	(label "Water_Out"
-		(at 39.37 36.83 180)
+		(at 31.75 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2782,7 +2849,7 @@
 		(uuid "39cb8351-a313-42d6-91c5-02ba256a4351")
 	)
 	(label "5V"
-		(at 54.61 31.75 180)
+		(at 63.5 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2914,17 +2981,6 @@
 		(uuid "7c21ad4d-56b5-47eb-97a9-42cef1351dcb")
 	)
 	(label "GND"
-		(at 49.53 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d19e3f3-6c7d-4293-8e6c-5f1105fa596d")
-	)
-	(label "GND"
 		(at 120.65 171.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3011,6 +3067,17 @@
 			(justify right bottom)
 		)
 		(uuid "9cae5730-588a-4029-8250-e3f058238ef9")
+	)
+	(label "5V"
+		(at 31.75 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d2503b0-4bd1-4be9-b9f4-95e726b98406")
 	)
 	(label "VIN"
 		(at 71.12 87.63 180)
@@ -3133,6 +3200,17 @@
 		)
 		(uuid "e69aacbb-0e65-4967-a5a4-28a3e40be996")
 	)
+	(label "3.3V"
+		(at 24.13 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb879ee5-e2bb-4329-87dc-dd2451b817cb")
+	)
 	(label "GND"
 		(at 120.65 168.91 180)
 		(fields_autoplaced yes)
@@ -3244,6 +3322,74 @@
 			(project "Water_Flowering_hardware"
 				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 62.23 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "058cea23-04d3-4e40-a5bd-8c9407f357ff")
+		(property "Reference" "R2"
+			(at 40.894 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 40.64 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.64 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5235cb0-8697-4fc4-87dc-5353dfa77e8b")
+		)
+		(pin "2"
+			(uuid "9beebd5a-68f0-4595-a526-f0590063f0e0")
+		)
+		(instances
+			(project "Water_Flowering_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3394,6 +3540,150 @@
 			(project "Water_Flowering_hardware"
 				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT5550L")
+		(at 29.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5063b242-bf54-4693-b1ab-030ae41b81f6")
+		(property "Reference" "Q2"
+			(at 34.29 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT5550L"
+			(at 34.29 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 34.29 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.6A Ic, 140V Vce, NPN Transistor, SOT-23"
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fc7931c8-72d6-46ae-a80e-a76f873c0adf")
+		)
+		(pin "1"
+			(uuid "a30f62aa-c401-42c8-8e14-be41633459e6")
+		)
+		(pin "2"
+			(uuid "9871f483-2696-478f-b8a9-6e2e81f9dcee")
+		)
+		(instances
+			(project "Water_Flowering_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "578cc019-41e0-4437-bc68-862a05018cea")
+		(property "Reference" "R6"
+			(at 26.924 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 21.082 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 22.352 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69bd0cd7-3974-489b-a953-01d01dd3abb2")
+		)
+		(pin "2"
+			(uuid "0c151a91-0e4e-4348-bb8f-524764f6722f")
+		)
+		(instances
+			(project "Water_Flowering_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3726,7 +4016,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 36.83 90)
+		(at 31.75 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3734,7 +4025,7 @@
 		(dnp no)
 		(uuid "c7e02774-f762-4b29-b19e-2061f1a0b8ad")
 		(property "Reference" "R1"
-			(at 42.926 34.036 90)
+			(at 28.956 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4033,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 42.926 39.878 90)
+			(at 34.798 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +4041,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 43.18 38.608 90)
+			(at 33.528 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +4050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 36.83 0)
+			(at 31.75 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +4059,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 36.83 0)
+			(at 31.75 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,73 +4237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce101b7d-fdb1-4d92-a0f9-7b2d1813277f")
-		(property "Reference" "R2"
-			(at 46.736 51.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 52.578 51.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 51.308 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4eb9f79f-e61c-4e4d-a5d5-43556287c99a")
-		)
-		(pin "2"
-			(uuid "090d30d5-4705-4a8b-a3f4-c94bfa69e955")
-		)
-		(instances
-			(project "Water_Flowering_hardware"
-				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 200.66 151.13 0)
 		(unit 1)
@@ -4084,7 +4308,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBT5550L")
-		(at 52.07 36.83 0)
+		(at 53.34 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4093,7 +4317,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddb13a5e-6f06-4f67-af3b-818e314d1937")
 		(property "Reference" "Q1"
-			(at 57.15 35.5599 0)
+			(at 58.42 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4326,7 @@
 			)
 		)
 		(property "Value" "MMBT5550L"
-			(at 57.15 38.0999 0)
+			(at 58.42 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4335,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 57.15 38.735 0)
+			(at 58.42 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4346,7 @@
 			)
 		)
 		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
-			(at 52.07 36.83 0)
+			(at 53.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4356,7 @@
 			)
 		)
 		(property "Description" "0.6A Ic, 140V Vce, NPN Transistor, SOT-23"
-			(at 52.07 36.83 0)
+			(at 53.34 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
