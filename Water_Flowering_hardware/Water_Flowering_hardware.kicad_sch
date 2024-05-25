@@ -2827,7 +2827,7 @@
 		(uuid "5ea0652a-ebda-4ef8-ae0b-9e3a3ad12b6e")
 	)
 	(label "VIN"
-		(at 114.9604 169.4942 180)
+		(at 120.65 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2880,6 +2880,17 @@
 			(justify right bottom)
 		)
 		(uuid "7d19e3f3-6c7d-4293-8e6c-5f1105fa596d")
+	)
+	(label "GND"
+		(at 120.65 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82c4275a-2b03-4572-bbb6-d767bc2a8efe")
 	)
 	(label "Soil_D0"
 		(at 168.91 88.9 0)
@@ -3013,17 +3024,6 @@
 		)
 		(uuid "c346c072-dbc2-41f9-b36b-711515f409d4")
 	)
-	(label "GND"
-		(at 114.9604 172.0342 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c449c8c1-0b4d-4b6d-8c12-fa518cc6fdb5")
-	)
 	(label "W0"
 		(at 168.91 91.44 0)
 		(fields_autoplaced yes)
@@ -3091,7 +3091,7 @@
 		(uuid "e69aacbb-0e65-4967-a5a4-28a3e40be996")
 	)
 	(label "GND"
-		(at 114.9604 166.9542 180)
+		(at 120.65 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3122,6 +3122,78 @@
 			(justify right bottom)
 		)
 		(uuid "ffbc9030-c7b1-457a-8ce6-8a9b5a9b15c7")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 125.73 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00bd772d-3112-48c5-9478-35515fed2064")
+		(property "Reference" "J4"
+			(at 121.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Jack"
+			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af9c0002-3c39-43f7-b41e-ea4ba98236a9")
+		)
+		(pin "2"
+			(uuid "6882bbdc-50c7-4e6b-b823-e5c2fdc6fb4d")
+		)
+		(pin "3"
+			(uuid "10440482-77cd-4a8c-930b-b5c6366aa93a")
+		)
+		(instances
+			(project "Water_Flowering_hardware"
+				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPDT")
@@ -3268,78 +3340,6 @@
 			(project "Water_Flowering_hardware"
 				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 120.0404 169.4942 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a36d846-235e-428f-a6b2-681a4c76596c")
-		(property "Reference" "J4"
-			(at 116.2304 163.1442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Power Jack"
-			(at 108.6104 174.5742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 120.0404 169.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.0404 169.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.0404 169.4942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fccbede-7b3e-48d2-a59f-948f96760645")
-		)
-		(pin "2"
-			(uuid "a0bc5a24-e1ae-46a6-b817-3a2871db4da3")
-		)
-		(pin "3"
-			(uuid "2842c3e3-0e56-4a12-aa9c-bc9cb85c78b7")
-		)
-		(instances
-			(project "Water_Flowering_hardware"
-				(path "/2430d23c-7a32-4c0f-92aa-bc816bceade1"
-					(reference "J4")
 					(unit 1)
 				)
 			)
