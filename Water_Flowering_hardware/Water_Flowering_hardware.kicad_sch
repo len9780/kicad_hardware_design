@@ -2805,13 +2805,13 @@
 		(uuid "52d03fbb-e6d3-4224-9814-25645a9863ce")
 	)
 	(label "S0"
-		(at 184.15 102.87 180)
+		(at 204.47 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "554637c5-2bf5-41ca-bef9-b830fc7a6db1")
 	)
@@ -2837,7 +2837,7 @@
 		)
 		(uuid "65ab8968-f86e-454c-b653-56c653f480a2")
 	)
-	(label "S4"
+	(label "S3"
 		(at 204.47 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3080,13 +3080,13 @@
 		(uuid "e59dc1bf-146d-4317-807a-51dee2bffdd6")
 	)
 	(label "S1"
-		(at 184.15 100.33 180)
+		(at 204.47 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e69aacbb-0e65-4967-a5a4-28a3e40be996")
 	)
