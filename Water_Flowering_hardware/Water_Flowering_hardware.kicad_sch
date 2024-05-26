@@ -2771,6 +2771,17 @@
 		)
 		(uuid "becd6ae6-cc9b-47bc-b25b-2cee6a769012")
 	)
+	(text "參考資料:\n1. relay: https://components101.com/switches/5v-single-channel-relay-module-pinout-features-applications-working-datasheet\n2. https://electronics.stackexchange.com/questions/82104/single-transistor-level-up-shifter"
+		(exclude_from_sim no)
+		(at 146.304 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da060f19-33da-4829-bd62-25839b34d598")
+	)
 	(label "S3"
 		(at 143.51 109.22 180)
 		(fields_autoplaced yes)
